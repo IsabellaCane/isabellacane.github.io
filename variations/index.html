@@ -31,55 +31,20 @@
 				body {
 					background-color: black;
 				}
-				.title {
-					position: fixed;
-					top: 350px;
-					left: 510px;
-					font-family: helvetica;
-					color: white;
-					background-color: black;
-				}
 
-				span {
-				  position: relative;
-				  display: block;
-				  cursor: pointer;
-				}
 
-				span:before, span:after {
-				  content: '';
-				  position: absolute;
-				  width: 0%;
-				  height: 1px;
-				  top: 50%;
-				  margin-top: -0.5px;
-				  background: #fff;
-				}
+		.title{
+			font-family: helvetica;
+			font-weight: lighter;
+			font-size: 50px;
+			text-align: center;
+			margin-top: 350px;
+			margin-bottom: 300px;
+			letter-spacing: 20px;
+			line-height: 40px;
+			text-decoration: line-through;
+		}
 
-				span:before {
-				  left: -2.5px;
-				}
-				span:after {
-				  right: 2.5px;
-				  background: #fff;
-				  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
-				}
-
-				span:hover:before {
-				  background: #fff;
-				  width: 100%;
-				  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-				}
-
-				span:hover:after {
-				  background: transparent;
-				  width: 100%;
-				  transition: 0s;
-				}
-				div.transbox {
-					background-color: #ffffff;
-		  border: 1px solid black;
-				}
 
 
 				</style>
