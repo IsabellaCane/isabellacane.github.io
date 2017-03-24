@@ -45,7 +45,85 @@
 	 color: grey;
 	 text-decoration: none;
 	 }
+	 .lefttext {
+ 		opacity: 0;
+ 		position: fixed;
+ 		top:65px;
+ 		right:7.5%;
+ 		width: 30px;
+ 		font-size: 15px;
+ 		color: grey;
+ 	}
+ 	.lefttext:hover {
+ 		opacity: 1;
+ 		position: fixed;
+ 		top:68px;
+ 		right: 10%;
+ 		width: 75px;
+ 		border:none;
+ 		font-size: 15px;
+ 		color: grey;
+ 		text-decoration: line-through;
+ 	}
 
+ 	.hometext {
+ 	opacity: 0;
+ 	position: fixed;
+ 	top:130px;
+ 	right:7.5%;
+ 	width: 30px;
+ 	font-size: 15px;
+ 	color: grey;
+ 	}
+ 	.hometext:hover {
+ 	opacity: 1;
+ 	position: fixed;
+ 	top:135px;
+ 	right: 9%;
+ 	width: 80px;
+ 	border:none;
+ 	font-size: 15px;
+ 	color: grey;
+ 	text-decoration: line-through;
+ 	}
+ 	.righttext {
+ 	opacity: 0;
+ 	position: fixed;
+ 	top:210px;
+ 	right:7.5%;
+ 	width: 30px;
+ 	font-size: 15px;
+ 	color: grey;
+ 	}
+ 	.righttext:hover {
+ 	opacity: 1;
+ 	position: fixed;
+ 	top:215px;
+ 	right: 11%;
+ 	width: 80px;
+ 	border:none;
+ 	font-size: 15px;
+ 	color: grey;
+ 	text-decoration: line-through;
+ 	}
+
+ 	.lefthand {
+ 	position: fixed;
+ 	top:45px;
+ 	right: 4.2%;
+ 	}
+
+ 	}
+ 	.container {
+ 	position: fixed;
+ 	top:120px;
+ 	right: 6.5%;
+ 	}
+ 	.righthand {
+ 	position: fixed;
+ 	top:200px;
+ 	right: 5.5%;
+ 	}
 		</style>
 
 	<body>
@@ -137,12 +215,25 @@
 		<br>
 		<br>
 		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="LEVEL2C.html"> BACK </a>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="index.html"> TAKE ME HOME </a>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="LEVEL3B.html"> NEXT </a>
+		<div class="lefthand">
+			<a href="LEVEL2C.html">
+				<div class="lefttext">MOVE BACK</div>
+				<img src="HAND.gif" width="85" alt>
+			</a>
+
+		<div class="container">
+			<a href="index.html">
+				<div class="hometext">FIRST PAGE</div>
+				<img src="LEFT.gif" width="60" alt>
+			</a>
+
+
+		<div class="righthand">
+			<a href="LEVEL3B.html">
+				<div class="righttext">CONTINUE</div>
+				<img src="RIGHT.gif" width="60" alt>
+			</a>
+
 
 	</body>
 </html>

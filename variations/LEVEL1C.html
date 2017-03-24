@@ -29,10 +29,91 @@
 		text-decoration: none;
 	}
 
+				.lefttext {
+					opacity: 0;
+					position: fixed;
+					top:65px;
+					right:7.5%;
+					width: 30px;
+					font-size: 15px;
+					color: grey;
+				}
+				.lefttext:hover {
+					opacity: 1;
+					position: fixed;
+					top:75px;
+					right: 12%;
+					width: 75px;
+					border:none;
+					font-size: 15px;
+					color: grey;
+					text-decoration: line-through;
+				}
+				.hometext {
+					opacity: 0;
+					position: fixed;
+					top:130px;
+					right:7.5%;
+					width: 30px;
+					font-size: 15px;
+					color: grey;
+				}
+				.hometext:hover {
+					opacity: 1;
+					position: fixed;
+					top:145px;
+					right: 10%;
+					width: 80px;
+					border:none;
+					font-size: 15px;
+					color: grey;
+					text-decoration: line-through;
+				}
+				.righttext {
+					opacity: 0;
+					position: fixed;
+					top:210px;
+					right:7.5%;
+					width: 30px;
+					font-size: 15px;
+					color: grey;
+				}
+				.righttext:hover {
+					opacity: 1;
+					position: fixed;
+					top:215px;
+					right: 12%;
+					width: 80px;
+					border:none;
+					font-size: 15px;
+					color: grey;
+					text-decoration: line-through;
+				}
+				.lefthand {
+					position: fixed;
+					top:45px;
+					right: 4.2%;
+				}
+				.container {
+					position: fixed;
+					top:120px;
+					right: 6.5%;
+				}
+				.righthand {
+					position: fixed;
+					top:200px;
+					right: 5.5%;
+				}
+
+
+
 	</style>
 	<body>
 <p>
-LEVEL 1C
+	<br>
+L&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C
+
+
 <br>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;G&nbsp;&nbsp;&nbsp;&nbsp;R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C
@@ -89,14 +170,25 @@ LEVEL 1C
 
 </p>
 
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="LEVEL1B.html"> BACK </a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="index.html"> TAKE ME HOME </a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="LEVEL2A.html"> NEXT </a>
+<div class="lefthand">
+	<a href="LEVEL1B.html">
+		<div class="lefttext">PREVIOUS</div>
+		<img src="HAND.gif" width="85" alt>
+	</a>
 
+
+<div class="container">
+	<a href="index.html">
+		<div class="hometext">LEAVE</div>
+		<img src="LEFT.gif" width="60" alt>
+	</a>
+
+
+<div class="righthand">
+	<a href="LEVEL2A.html">
+		<div class="righttext">CONTINUE</div>
+		<img src="RIGHT.gif" width="60" alt>
+	</a>
 
 	</body>
 </html>

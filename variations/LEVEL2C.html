@@ -28,6 +28,85 @@
 		color: grey;
 		text-decoration: none;
 	}
+	.lefttext {
+		opacity: 0;
+		position: fixed;
+		top:65px;
+		right:7.5%;
+		width: 30px;
+		font-size: 15px;
+		color: grey;
+	}
+	.lefttext:hover {
+		opacity: 1;
+		position: fixed;
+		top:68px;
+		right: 10%;
+		width: 75px;
+		border:none;
+		font-size: 15px;
+		color: grey;
+		text-decoration: line-through;
+	}
+
+	.hometext {
+	opacity: 0;
+	position: fixed;
+	top:130px;
+	right:7.5%;
+	width: 30px;
+	font-size: 15px;
+	color: grey;
+	}
+	.hometext:hover {
+	opacity: 1;
+	position: fixed;
+	top:145px;
+	right: 11.5%;
+	width: 80px;
+	border:none;
+	font-size: 15px;
+	color: grey;
+	text-decoration: line-through;
+	}
+	.righttext {
+	opacity: 0;
+	position: fixed;
+	top:210px;
+	right:7.5%;
+	width: 30px;
+	font-size: 15px;
+	color: grey;
+	}
+	.righttext:hover {
+	opacity: 1;
+	position: fixed;
+	top:215px;
+	right: 10%;
+	width: 80px;
+	border:none;
+	font-size: 15px;
+	color: grey;
+	text-decoration: line-through;
+	}
+
+	.lefthand {
+	position: fixed;
+	top:45px;
+	right: 4.2%;
+	}
+
+	}
+	.container {
+	position: fixed;
+	top:120px;
+	right: 6.5%;
+	}
+	.righthand {
+	position: fixed;
+	top:200px;
+	right: 5.5%;
+	}
 
 	</style>
 	<body>
@@ -41,22 +120,34 @@
 	</h3>
 	<br>
 	<ul>
-		<li> GRAPHIC DESIGN IS ALWAYS A SYNTHETIC WORK: YOU NEED TO REDUCE AND REMOVE UNTIL YOU REACH THE CORE OF THE MESSAGE.</li>
+		<li> GRAPHIC DESIGN IS ALWAYS A SYNTHETIC WORK: YOU NEED TO REDUCE AND REMOVE UNTIL <br> YOU REACH THE CORE OF THE MESSAGE.</li>
 <br>
-		<li>GRAPHICS IS NOT AN INDEPENDENT ART, BUT A SERVICE. TO OBTAIN A CORRECT RESULT, YOU NEED TO PUT YOURSELF ON THE SIDE OF THE OBSERVER, ON THE SIDE OF THE PUBLIC.</li>
+		<li>GRAPHICS IS NOT AN INDEPENDENT ART, BUT A SERVICE. TO OBTAIN A CORRECT RESULT, YOU <br>NEED TO PUT YOURSELF ON THE SIDE OF THE OBSERVER, ON THE SIDE OF THE PUBLIC.</li>
 <br>
-		<li>A GOOD DESIGNER IS THE ONE WHO OFFERS A GOOD SERVICE THROUGH COMMUNICATION, NOT THE ONE WHO WANTS TO SURPRISE AT ANY COST, NEITHER THE ONE WHO WANTS TO SHOW HOW GOOD HE IS.</li>
+		<li>A GOOD DESIGNER IS THE ONE WHO OFFERS A GOOD SERVICE THROUGH COMMUNICATION, NOT THE <br>ONE WHO WANTS TO SURPRISE AT ANY COST, NEITHER THE ONE WHO WANTS TO SHOW HOW GOOD HE IS.</li>
 <br>
 		<li>A DESIGNER IS GOOD IF HE CAN SOLVE A PROBLEM, IF HE PUTS FORWARD A USEFUL SOLUTION.</li>
 	</ul>
 	<br>
 	<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="LEVEL2B.html"> BACK </a>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="index.html"> TAKE ME HOME </a>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="LEVEL3A.html"> NEXT </a>
+	<div class="lefthand">
+		<a href="LEVEL2B.html">
+			<div class="lefttext">LAST LEVEL</div>
+			<img src="HAND.gif" width="85" alt>
+		</a>
+
+	<div class="container">
+		<a href="index.html">
+			<div class="hometext">BEGINNING</div>
+			<img src="LEFT.gif" width="60" alt>
+		</a>
+
+
+	<div class="righthand">
+		<a href="LEVEL3A.html">
+			<div class="righttext">KEEP GOING</div>
+			<img src="RIGHT.gif" width="60" alt>
+		</a>
 
 
 	</body>

@@ -19,19 +19,91 @@
 		text-decoration: none;
 	}
 
-	a:hover {
-		color: grey;
-		text-decoration: line-through;
-	}
+					.lefttext {
+						opacity: 0;
+						position: fixed;
+						top:65px;
+						right:7.5%;
+						width: 30px;
+						font-size: 15px;
+						color: grey;
+					}
 
-	a:active {
-		color: grey;
-		text-decoration: none;
-	}
+					.lefttext:hover {
+						opacity: 1;
+						position: fixed;
+						top:75px;
+						right: 10%;
+						width: 80px;
+						border:none;
+						font-size: 15px;
+						color: grey;
+						text-decoration: line-through;
+					}
+
+					.hometext {
+						opacity: 0;
+						position: fixed;
+						top:130px;
+						right:7.5%;
+						width: 30px;
+						font-size: 15px;
+						color: grey;
+					}
+
+					.hometext:hover {
+						opacity: 1;
+						position: fixed;
+						top:145px;
+						right: 12%;
+						width: 80px;
+						border:none;
+						font-size: 15px;
+						color: grey;
+						text-decoration: line-through;
+					}
+					.righttext {
+						opacity: 0;
+						position: fixed;
+						top:190px;
+						right:7.5%;
+						width: 30px;
+						font-size: 15px;
+						color: grey;
+					}
+
+					.righttext:hover {
+						opacity: 1;
+						position: fixed;
+						top:215px;
+						right: 10%;
+						width: 80px;
+						border:none;
+						font-size: 15px;
+						color: grey;
+						text-decoration: line-through;
+					}
+					.lefthand {
+						position: fixed;
+						top:45px;
+						right: 4.2%;
+					}
+					.container {
+						position: fixed;
+						top:120px;
+						right: 6.5%;
+					}
+					.righthand {
+						position: fixed;
+						top:200px;
+						right: 5.5%;
+
+					}
 
 	</style>
 	<body>
 		<p>
+			<br>
 &nbsp;&nbsp;LEVEL 1B
 <br>
 <br>
@@ -96,12 +168,26 @@
 
 </p>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="LEVEL1A.html"> BACK </a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="index.html"> TAKE ME HOME </a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="LEVEL1C.html"> NEXT </a>
+<div class="lefthand">
+	<a href="LEVEL1A.html">
+		<div class="lefttext">BACK</div>
+		<img src="HAND.gif" width="85" alt>
+	</a>
+
+<div class="container">
+	<a href="index.html">
+		<div class="hometext">VARIATIONS</div>
+		<img src="LEFT.gif" width="60"  alt>
+	</a>
+
+
+<div class="righthand">
+	<a href="LEVEL1C.html">
+		<div class="righttext">MOVING ON</div>
+		<img src="RIGHT.gif" width="60" alt>
+	</a>
+
+
 
 	</body>
 </html>
