@@ -1,6 +1,39 @@
-.box{
-  height:100px;
-  width:50px;
-  colour:red;
-  
+
+.text{
+  font-family: helvetica;
+  margin-left: 100px;
+  width: 500px;
+}
+
+
+.number{
+  color: red;
+  border: 1px solid red;
+
+
+}
+.number:hover{
+  background-color: white;
+  color:red;
+}
+.footnote{
+  position: fixed;
+  bottom:8px;
+  right: 10px;
+  font-size: 10px;
+  display:none;
+
+}
+.footnote.showme{
+  display:block;
+}
+
+.metahaven.orange{
+  color:orange;
+  font-size: 12px;
+  transition: 2px;
+}
+
+.thumbnail{
+  width: 300px;
 }
