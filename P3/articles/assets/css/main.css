@@ -35,7 +35,7 @@ border: 1px;
 }
 
 .col__4of4 {
-flex:0 0 45%;
+flex:0 0 50%;
 height: 100vh;
 overflow: scroll;
 border: 1px;
@@ -107,14 +107,23 @@ text-decoration: line-through;
   margin-top: 219px;
   margin-left: -65px;
 }
-.title3 {
+.title2 {
   font-family: helvetica;
   font-size:13pt;
   letter-spacing:2px;
   transform: rotate(-90deg);
   position: absolute;
   margin-top: 360px;
-  margin-left: -205px;
+  margin-left: -210px;
+}
+.title3 {
+  font-family: helvetica;
+  font-size:13pt;
+  letter-spacing:2px;
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-top: 155px;
+  margin-left: -50px;
 }
 .title4 {
   font-family: helvetica;
@@ -122,9 +131,11 @@ text-decoration: line-through;
   letter-spacing:2px;
   transform: rotate(-90deg);
   position: absolute;
-  margin-top: 360px;
-  margin-left: -205px;
+  margin-top: 170px;
+  margin-left: -65px;
 }
+
+
 .title.showme{
   font-weight: bold;
 }
